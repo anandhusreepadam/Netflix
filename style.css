@@ -1,3 +1,4 @@
+/* Font Loaded from file */
 @font-face {
     font-family: 'Netflix Sans';
     src:
@@ -5,17 +6,17 @@
     font-weight: normal;
     font-style: normal;
 }
-
+/* All other fonts set and marging and padding set to 0 */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
+/* full Body set to black */
 body {
     background-color: #000;
 }
-
+/* Background Image set */
 .main {
     background: url("images/bgnew.jpg");
     background-position: center top;
@@ -33,7 +34,7 @@ body {
     position: absolute;
     top: 0;
 }
-
+/* Navigation Bar */
 nav {
     max-width: 78%;
     padding: 1%;
@@ -60,9 +61,8 @@ nav button {
     width: 20px;
     height: 20px;
 }
-
+/* Unlimited Movies and first White words */
 .hero {
-
     height: calc(99%-62px);
     display: flex;
     align-items: center;
@@ -99,12 +99,10 @@ nav button {
 }
 
 .lang {
-
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-
 }
 
 .lang-btn {
@@ -115,13 +113,10 @@ nav button {
     color: #fff;
     border: 1px solid #777;
     border-radius: 4px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 5px;
-
-
 }
 
 .btn-red {
@@ -136,7 +131,7 @@ nav button {
     border-radius: 4px;
 
 }
-
+/* Email Input Box */
 .main input {
     padding: 18px 160px 18px 17px;
     font-size: 17px;
@@ -168,7 +163,7 @@ nav button {
     padding: 8px 15px 8px 15px;
     font-weight: 600;
 }
-
+/* Video Playing Tv Section */
 .first {
     display: flex;
     justify-content: center;
@@ -206,6 +201,7 @@ nav button {
     font-size: 24px;
     text-align: left;
 }
+/* Stranger Things Downloading section */
 .second {
     display: flex;
     justify-content: center;
@@ -241,6 +237,7 @@ nav button {
     font-size: 14px;
     font-weight: 400;
 }
+/* Download Box Over the Mobile */
 .download {
     border: 1.8px solid #777;
     border-radius: 10px;
@@ -283,6 +280,7 @@ nav button {
 .in{
     width: 500px;
 }
+/* Video Playing Imac section */
 .third {
     display: flex;
     justify-content: center;
@@ -320,8 +318,7 @@ nav button {
     text-align: left;
 }
 
-
-
+/* FAQ Section */
 .faq{
     margin-bottom: 70px;
 }
@@ -364,6 +361,8 @@ nav button {
     padding: 50px 0px 20px 0px;
 }
 
+/* Email input in FAQ */
+
 .faq input {
     padding: 18px 160px 18px 17px;
     font-size: 17px;
@@ -379,6 +378,7 @@ nav button {
     margin: 0px auto;
 }
 
+/* Footer */
 .footer {
     color: #afafaf;
     padding: 50px;
